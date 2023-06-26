@@ -17,7 +17,9 @@
                     </ul>
                 </div>
             </section>
-            <section class="header-bot">
+        </div>
+        <section class="header-bot">
+            <div class="container">
                 <div class="bar">
                     <img src="" alt="">
                     <nav class="menù">
@@ -32,13 +34,13 @@
                         </ul>
                     </nav>
                 </div>
+            </div>
             </section>
-        </div>
     </div>
 </template>
 <script>
 export default {
-    
+    name: 'AppHeader'
 }
 </script>
 <style lang="scss" scoped>
@@ -49,6 +51,12 @@ export default {
         display: flex;
         justify-content: space-between;
         padding-top: 0.75rem;
+    }
+
+    section.header-bot{
+        background-color: orange;
+        width: 100%;
+        height: 300px;
     }
 
     div.background{
