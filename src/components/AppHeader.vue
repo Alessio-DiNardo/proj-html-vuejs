@@ -17,12 +17,24 @@
                     </ul>
                 </div>
             </section>
+            <section class="header-bot">
+                <div class="bar">
+                    <img src="" alt="">
+                    <nav class="menù">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
         </div>
     </div>
-
-<h1>
-    AppHeaderbot
-</h1>
 </template>
 <script>
 export default {
