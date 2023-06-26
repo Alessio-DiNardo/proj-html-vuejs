@@ -1,6 +1,27 @@
 <template>
+    <div class="green-line"></div>
+    <div class="background">
+        <div class="container">
+            <section class="header-top">
+                <div>
+                    <p>
+                        Avada & Associates legal team announce deal to open up oil & gas
+                    </p>
+                </div>
+                <div>
+                    <ul class="icons">
+                        <li><i class="fa-brands fa-square-facebook"></i></li>
+                        <li><i class="fa-brands fa-square-twitter"></i></li>
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                        <li><i class="fa-brands fa-square-youtube"></i></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
 <h1>
-    AppHeader
+    AppHeaderbot
 </h1>
 </template>
 <script>
@@ -11,4 +32,28 @@ export default {
 <style lang="scss" scoped>
     @use '../styles/partials/mixins' as*;
     @use '../styles/partials/variables' as*;
+
+    section.header-top{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.75rem;
+    }
+
+    div.background{
+        background-color: $secondColor;
+        width: 100%;
+        height: 50px;
+    }
+
+    ul.icons{
+        display: flex;
+        color: $firstColor;
+        font-size: 1.5rem;
+    }
+    
+    div.green-line{
+        background-color: $firstColor;
+        width: 100%;
+        height: 5px;
+    }
 </style>
