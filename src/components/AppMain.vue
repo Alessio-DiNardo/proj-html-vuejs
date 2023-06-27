@@ -10,16 +10,30 @@
 </section>
 <section class="background">
     <div class="container-container-card">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+            <img src="../assets/img/law_7.jpg" alt="img">
+            <h2>international</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore. Sadips ipsums et dolores ficilis ametis uns etras.</p>
+        </div>
+        <div class="card">
+            <img src="../assets/img/law_8.jpg" alt="img">
+            <h2>international</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore. Sadips ipsums et dolores ficilis ametis uns etras.</p>
+        </div>
+        <div class="card">
+            <img src="../assets/img/law_3.jpg" alt="img">
+            <h2>international</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore. Sadips ipsums et dolores ficilis ametis uns etras.</p>
+        </div>
     </div>
 </section>
 <section class="work">
-    <h1></h1>
-    <div class="line"></div>
-    <p></p>
-    <button></button>
+    <div class="content">
+        <h1>let's work together</h1>
+        <div class="line"></div>
+        <p>We work as a single united team with market leading firms around the world and give our clients the highest quality advice possible.</p>
+        <button>make enquiry</button>
+    </div>
 </section>
 
 </template>
@@ -43,25 +57,75 @@ export default {
     section.background{
         background-color: $sixColor;
         width: 100%;
-        height: 400px;
+        height: 800px;
     }
     div.container-container-card{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 500px;
+        height: 580px;
     }
     div.card{
         width: 375px;
-        height: 300px;
-        background-color: red;
-        border: 1px solid black;
-        margin-bottom: 4rem;
+        height: 580px;
+        background-color: white;
+        border: 1px solid rgb(211, 203, 203);
+        text-align: center;
+        margin-top: 12rem;
+
+        img{
+            width: 270px;
+            text-align: center;
+            padding-top: 2rem;
+        }
+
+        h2{
+            color: $fourColor;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            padding: 1.3rem 1.3rem
+        }
+
+        p{
+            padding-right: 2.3rem;
+            padding-left: 2.3rem;
+            font-size: 1.2rem;
+        }
     }
     section.work{
         width: 100%;
-        height: 300px;
-        background-color: blue;
+        height: 500px;
+        background-image: url('../assets/img/where-we-work-parallax.jpg');
+        background-position: bottom;
+        background-size: cover;
+
+
+        div.content{
+            color: white;
+            text-align: center;
+            padding-top: 10rem;
+        }
+
+        h1{
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            padding-bottom: 2rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+            padding: 2rem 
+        }
+
+        button{
+        border: none;
+        background-color: $firstColor;
+        padding: 1rem 2rem 1rem 2rem;
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: bold;
+        }
     }
 
     div.text{
