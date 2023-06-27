@@ -8,30 +8,84 @@
         <div class="table">
             <div class="column">
                 <h2>OUR PEOPLE</h2>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card">
+                    <img src="../assets/img/column1-image1.jpg" alt="Image">
+                    <p>Deborah Brown</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column1-image2.jpg" alt="Image">
+                    <p>Allen Lucas</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column1-image3.jpg" alt="Image">
+                    <p>Muriel Potter</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column1-image4.jpg" alt="Image">
+                    <p>Ken Douglas</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column1-image5.jpg" alt="Image">
+                    <p>Loretta Harris</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column1-image6.jpg" alt="Image">
+                    <p>Phil Russell</p>
+                </div>
             </div>
             <div class="column">
                 <h2>OUR PRRACTICE AERAS</h2>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card">
+                    <img src="../assets/img/column2-image1.jpg" alt="Image">
+                    <p>Tax Litigation</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column2-image2.jpg" alt="Image">
+                    <p>Aquisitions</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column2-image3.jpg" alt="Image">
+                    <p>Financial Advice</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column2-image4.jpg" alt="Image">
+                    <p>International</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column2-image5.jpg" alt="Image">
+                    <p>Oil and Gas</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column2-image6.jpg" alt="Image">
+                    <p>Capital Markets</p>
+                </div>
             </div>
             <div class="column">
                 <h2>OU PUBLICATION</h2>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card">
+                    <img src="../assets/img/column3-image1.jpg" alt="Image">
+                    <p>Low Oil Prices</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column3-image2.jpg" alt="Image">
+                    <p>Cost of Divorce</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column3-image3.jpg" alt="Image">
+                    <p>2015 Tax Laws</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column3-image4.jpg" alt="Image">
+                    <p>Surveys Matter</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column3-image5.jpg" alt="Image">
+                    <p>In-House Work</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/column3-image6.jpg" alt="Image">
+                    <p>Ana Thompson</p>
+                </div>
             </div>
         </div>
     </div>
@@ -50,7 +104,8 @@ export default {
     section.background{
         background-color: $sixColor;
         width: 100%;
-        height: 800px;
+        height: 900px;
+        
     }
 
     h1{
@@ -69,20 +124,35 @@ export default {
     div.table{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 2rem;
         
-        border: 1px solid black;
     }
 
     div.column{
-        border: 1px solid black;
         
+
+        h2{
+            font-size: 1.2rem;
+            color: $fourColor;
+        }
     }
 
     div.card{
-        width: 180px;
-        height: 50px;
-        background-color: red;
-        border: 1px solid black;
+        
+        
+        background-color: $secondColor;
         margin: 1rem 0 1rem 0;
+        display: flex;
+        padding: 1rem 7rem 1rem .5rem;
+
+        img{
+            width: 50px;
+        }
+
+        p{
+            color: rgb(78, 77, 77);
+            padding-top: .8rem;
+            padding-left: 1rem;
+        }
     }
 </style>

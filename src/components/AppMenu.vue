@@ -2,6 +2,7 @@
 <div class="background">
     <div class="container-container-card">
         <div class="card">
+            <div class="line"></div>
             <div class="text">
                 <h1>Who we are</h1>
                 <p>
@@ -13,6 +14,7 @@
             </div>
         </div>
         <div class="card">
+            <div class="line"></div>
             <div class="text">
                 <h1>What we do</h1>
                 <p>
@@ -24,6 +26,7 @@
             </div>
         </div>
         <div class="card">
+            <div class="line"></div>
             <div class="text">
                 <h1>where we work</h1>
                 <p>
@@ -235,5 +238,11 @@ export default {
             font-size: 1.1rem;
 
         }
+    }
+
+    div.line{
+        height: 2px;
+        width: 100%;
+        background-color: $firstColor;
     }
 </style>
