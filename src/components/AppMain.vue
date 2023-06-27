@@ -1,9 +1,11 @@
 <template>
 <section class="spam">
     <div class="container">
-        <img src="" alt="">
-        <p>"We have worked with Avada Law for the past 15 years. As we have grown and evolved, what i have valued most about our relationship is that Avada Law know us and our business"</p>
-        <p>Nigel Rawlinson . Senior Partner </p>
+        <div class="text">
+            <img src="../assets/img/envato-logo.png" alt="Envato logo">
+            <p>"We have worked with Avada Law for the past 15 years. As we have grown and evolved, what i have valued most about our relationship is that Avada Law know us and our business"</p>
+            <span><strong>Nigel Rawlinson . Senior Partner</strong></span>
+        </div>
     </div>
 </section>
 <section class="background">
@@ -32,8 +34,9 @@ export default {
 
     section.spam{
         width: 100%;
-        background-color: blue;
-        height: 120px;
+        background-image: url('../assets/img/showeare-parallax.jpg');
+        height: 400px;
+        background-image: bottom;
         
     }
 
@@ -60,4 +63,25 @@ export default {
         height: 300px;
         background-color: blue;
     }
+
+    div.text{
+        text-align: center;
+        color: white;
+        font-size: 1.1rem;
+        padding-top: 7rem;
+
+        img{
+            padding-bottom: 1.5rem;
+        }
+
+        p{
+            padding-bottom: 1.8rem;
+            line-height: 30px;
+            font-size: 19px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-style: italic;
+        }
+    }
+    
 </style>
