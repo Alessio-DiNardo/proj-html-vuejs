@@ -38,10 +38,59 @@
 </div>
 <section class="check">
     <div class="container-container-check">
-        <div class="show"></div>
-        <div class="show"></div>
-        <div class="show"></div>
-        <div class="show"></div>
+        <div class="show">
+            <div class="content">
+                <span class="check">
+                    <i class="fa-solid fa-check"></i>
+                </span>
+                <h2>
+                    a global view
+                </h2>
+                <p>
+                    Nullam fringilla tristique elit id varius ipsums. Lorem lacinia quam nec venenatis sadips dignissim.
+                </p>
+            </div>
+        </div>
+        <div class="show">
+            <div class="content">
+                <span class="check">
+                    <i class="fa-solid fa-check"></i>
+                </span>
+                <h2>
+                    a global view
+                </h2>
+                <p>
+                    Nullam fringilla tristique elit id varius ipsums. Lorem lacinia quam nec venenatis sadips dignissim.
+                </p>
+            </div>
+        </div>
+        <div class="show">
+            <div class="content">
+                <span class="check">
+                    <i class="fa-solid fa-check"></i>
+                </span>
+                <h2>
+                    a global view
+                </h2>
+                <p>
+                    Nullam fringilla tristique elit id varius ipsums. Lorem lacinia quam nec venenatis sadips dignissim.
+                </p>
+            </div>
+        </div>
+        <div class="show">
+            <div class="content">
+                <span class="check">
+                    <i class="fa-solid fa-check"></i>
+                </span>
+                <h2>
+                    a global view
+                </h2>
+                <p>
+                    Nullam fringilla tristique elit id varius ipsums. Lorem lacinia quam nec venenatis sadips dignissim.
+                </p>
+            </div>
+        </div>
+        
     </div>
 </section>
 <section class="green">
@@ -86,7 +135,28 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 150px;
+        height: 180px;
+
+        p{
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            margin-right: 8rem;
+        }
+
+        button{
+            border: none;
+            background-color: #3a8a82;
+            padding: 1.2rem 2.5rem 1.2rem 2.5rem ;
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            
+            // font-family: var(--button_typography-font-family);
+            // font-style: var(--button_typography-font-style,normal);
+
+
+        }
     }
 
     div.card{
@@ -131,16 +201,39 @@ export default {
     section.green{
         background-color: $firstColor;
         width: 100%;
-        height: 160px;
+        height: 180px;
     }
 
     div.show{
-        width: 200px;
-        height: 130px;
-        background-color: blue;
-        border: 1px solid black;
+        width: 375px;;
         margin-bottom: 9rem;
-
     }
 
+    div.content{
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+        span.check{
+            color: $firstColor;
+            font-size: 1.4rem;
+            padding-bottom: 0.9rem;
+
+        }
+
+        h2{
+            color: $fourColor;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            padding-top: 0.7rem;
+            padding-bottom: 0.7rem;
+        }
+
+        p{
+            color: grey;
+            font-size: 1.1rem;
+
+        }
+    }
 </style>
