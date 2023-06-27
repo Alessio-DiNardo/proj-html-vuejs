@@ -1,9 +1,39 @@
 <template>
 <div class="background">
     <div class="container-container-card">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+            <div class="text">
+                <h1>Who we are</h1>
+                <p>
+                    Nullam fringilla tristique elit id varius. Nulla lacinia quam nec venenatis dignissim. Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
+                </p>
+                <button>
+                    about us
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h1>What we do</h1>
+                <p>
+                    Nullam fringilla tristique elit id varius. Nulla lacinia quam nec venenatis dignissim. Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
+                </p>
+                <button>
+                    our work
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h1>where we work</h1>
+                <p>
+                    Nullam fringilla tristique elit id varius. Nulla lacinia quam nec venenatis dignissim. Vivamus volutpat tempus semper. Cras feugiat mi sit amet risus consectetur.
+                </p>
+                <button>
+                    our offices
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 <section class="check">
@@ -62,10 +92,36 @@ export default {
     div.card{
         width: 375px;
         height: 300px;
-        background-color: red;
-        border: 1px solid black;
+        background-color: white;
+        border: 1px solid $secondColor;
+        text-align: center;
     }
 
+    div.text{
+        padding-top: 3rem;
+
+        h1{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            line-height: 1rem;
+            color: $fourColor;
+        }
+
+        p{
+            font-size: 1.1rem;
+            padding: 1.8rem;
+            line-height: 1.8rem;
+            color: grey;
+        }
+
+        button{
+            border: none;
+            background-color: $fourColor;
+            padding: 1rem 2.5rem 1rem 2.5rem;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
     section.check{
         background-color: $sixColor;
         width: 100%;
