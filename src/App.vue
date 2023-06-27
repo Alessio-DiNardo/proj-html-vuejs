@@ -6,6 +6,7 @@ import JumboApp from './components/JumboApp.vue'
 import AppMenu from './components/AppMenu.vue'
 import AppList from './components/AppList.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -14,7 +15,8 @@ export default {
     AppFooter,
     JumboApp,
     AppMenu,
-    AppList
+    AppList,
+  
   }
 }
 </script>
