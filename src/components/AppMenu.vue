@@ -154,17 +154,22 @@ export default {
             color: white;
             text-transform: uppercase;
             font-size: 1.2rem;
+            transition: all 0.4s ease-in-out;
             
             // font-family: var(--button_typography-font-family);
             // font-style: var(--button_typography-font-style,normal);
 
         }
 
+        button:hover{
+            background-color: $firstColor;
+        }
+
     }
 
     div.card{
         width: 375px;
-        height: 300px;
+        height: 335px;
         background-color: white;
         border: 1px solid $secondColor;
         text-align: center;

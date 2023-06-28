@@ -25,7 +25,7 @@
                     <img src="../assets/img/avada-law-logo.png" alt="Logo">
                     <nav class="menù">
                         <ul class="list">
-                            <li>Home</li>
+                            <li class="active">Home</li>
                             <li>Who We Are</li>
                             <li>What We Do</li>
                             <li>Where We Work</li>
@@ -88,7 +88,12 @@ export default {
         display: flex;
 
         li{
-            padding: 0 1rem 0 2.6rem;
+            padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+            transition: all 0,2s ease-in-out;
+        }
+
+        li:hover{
+            color: $firstColor
         }
     }
 
@@ -96,5 +101,11 @@ export default {
         font-size: 0.9rem;
         padding-top: 0.2rem;
         color: grey;
+    }
+
+    .active{
+        color: $firstColor;
+        border-left: 2px solid $firstColor;
+        border-right: 2px solid $firstColor;
     }
 </style>

@@ -51,5 +51,11 @@ export default {
         color: white;
         text-transform: uppercase;
         font-size: 1rem;
+        transition: all 0.2s ease-in-out;
     }
+
+    button:hover{
+            background-color: $sevenColor;
+            
+        }
 </style>

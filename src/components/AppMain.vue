@@ -77,6 +77,11 @@ export default {
             width: 270px;
             text-align: center;
             padding-top: 2rem;
+
+            img:hover{
+            transform: scale(1.3);
+            z-index: 2;
+        }
         }
 
         h2{
@@ -92,6 +97,7 @@ export default {
             font-size: 1.2rem;
         }
     }
+    
     section.work{
         width: 100%;
         height: 500px;
@@ -125,6 +131,10 @@ export default {
         text-transform: uppercase;
         font-size: 0.9rem;
         font-weight: bold;
+        }
+
+        button:hover{
+            background-color: $sevenColor;
         }
     }
 
