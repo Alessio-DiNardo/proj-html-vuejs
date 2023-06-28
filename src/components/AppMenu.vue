@@ -158,8 +158,8 @@ export default {
             // font-family: var(--button_typography-font-family);
             // font-style: var(--button_typography-font-style,normal);
 
-
         }
+
     }
 
     div.card{
@@ -193,6 +193,11 @@ export default {
             padding: 1rem 2.5rem 1rem 2.5rem;
             color: white;
             text-transform: uppercase;
+            transition: all 0.2s ease-in-out
+        }
+
+        button:hover{
+            background-color: $firstColor;
         }
     }
     section.check{
