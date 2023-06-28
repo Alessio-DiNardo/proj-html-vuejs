@@ -246,7 +246,10 @@ export default {
         p{
             color: grey;
             font-size: 1.1rem;
+        }
 
+        h2:hover{
+            color: $firstColor;
         }
     }
 

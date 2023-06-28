@@ -102,7 +102,7 @@ export default {
         width: 100%;
         height: 500px;
         background-image: url('../assets/img/where-we-work-parallax.jpg');
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
 
 
@@ -135,6 +135,13 @@ export default {
 
         button:hover{
             background-color: $sevenColor;
+        }
+
+        div.line{
+            background-color: grey;
+            width: 150px;
+            height: 1px;
+            margin: 0.5rem auto;
         }
     }
 

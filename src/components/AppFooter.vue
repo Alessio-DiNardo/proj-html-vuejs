@@ -9,7 +9,7 @@
                 </div>
                 <div>
                     <ul class="icons">
-                        <li><i class="fa-brands fa-square-facebook"></i></li>
+                        <li class="tooltip" data-tooltip="Facebook"><i class="fa-brands fa-square-facebook"></i></li>
                         <li><i class="fa-brands fa-square-twitter"></i></li>
                         <li><i class="fa-brands fa-square-instagram"></i></li>
                         <li><i class="fa-brands fa-square-youtube"></i></li>
